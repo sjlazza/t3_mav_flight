@@ -71,8 +71,8 @@ int main(int argc, char **argv){
     
     while(ros::ok()){
         
-        relative_attitude_package(0,0);
-        dynamixel_traj_.publish(relative_attitude);
+//        relative_attitude_package(0,0);
+//        dynamixel_traj_.publish(relative_attitude);
 
         ros::spinOnce();
         loop_rate.sleep();

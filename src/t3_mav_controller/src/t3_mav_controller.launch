@@ -1,0 +1,19 @@
+<launch>
+    <!-- Dynamixel Workbench Controller -->
+    <include file="$(find dynamixel_workbench_controllers)/launch/dynamixel_controllers.launch">
+        <arg name="usb_port"        default="/dev/ttyU2D2"/>
+        <arg name="dxl_baud_rate"   default="4500000"/>
+    </include>
+
+    <!-- Mavros -->
+    <include file="$(find mavros)/launch/px4.launch">
+        <arg name="fcu_url"         default="/dev/ttyS4:3000000"/>
+    </include>
+    <!-- To change /mavros/imu/data publication frequency, "rosrun mavros mavcmd long 511 31 10000 0 0 0 0 0"  -->
+    <!-- source: programmersought.com/article/62848162206 -->
+
+    <!-- T3_MAV_Controller -->
+    <node name="t3_mav_controller_node"  pkg="t3_mav_controller" type="t3_mav_controller_node"  output="screen"/>
+
+</launch>
+

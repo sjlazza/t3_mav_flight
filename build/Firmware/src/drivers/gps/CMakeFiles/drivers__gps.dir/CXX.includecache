@@ -438,12 +438,6 @@ gps_helper.h
 ../../definitions.h
 /home/mrl/catkin_ws/src/Firmware/src/drivers/gps/definitions.h
 
-/home/mrl/catkin_ws/src/Firmware/src/drivers/gps/devices/src/rtcm.cpp
-rtcm.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/gps/devices/src/rtcm.h
-cstring
--
-
 /home/mrl/catkin_ws/src/Firmware/src/drivers/gps/devices/src/rtcm.h
 cstdint
 -

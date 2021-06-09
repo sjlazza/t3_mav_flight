@@ -472,8 +472,6 @@ cstdlib
 inttypes.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/lib/motion_planning/VelocitySmoothing.hpp
-
 /home/mrl/catkin_ws/src/Firmware/src/lib/parameters/param.h
 stdint.h
 -
@@ -500,32 +498,6 @@ errno.h
 stdlib.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingXY.cpp
-ManualVelocitySmoothingXY.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingXY.hpp
-mathlib/mathlib.h
--
-float.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingXY.hpp
-motion_planning/VelocitySmoothing.hpp
--
-matrix/matrix/math.hpp
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingZ.cpp
-ManualVelocitySmoothingZ.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingZ.hpp
-mathlib/mathlib.h
--
-float.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/ManualVelocitySmoothingZ.hpp
-motion_planning/VelocitySmoothing.hpp
--
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StickAccelerationXY.cpp
 StickAccelerationXY.hpp
 /home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StickAccelerationXY.hpp
@@ -548,16 +520,6 @@ uORB/topics/takeoff_status.h
 SlewRate.hpp
 /home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/SlewRate.hpp
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StickYaw.cpp
-StickYaw.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StickYaw.hpp
-px4_platform_common/defines.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StickYaw.hpp
-SlewRate.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/SlewRate.hpp
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/Sticks.cpp
 Sticks.hpp
 /home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/Sticks.hpp
@@ -572,18 +534,6 @@ uORB/Subscription.hpp
 uORB/topics/manual_control_setpoint.h
 -
 uORB/topics/vehicle_status.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StraightLine.cpp
-StraightLine.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StraightLine.hpp
-mathlib/mathlib.h
--
-px4_platform_common/defines.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/flight_mode_manager/tasks/Utility/StraightLine.hpp
-matrix/matrix/math.hpp
 -
 
 Firmware/src/lib/parameters/px4_parameters.hpp

@@ -1664,20 +1664,6 @@ uORB/topics/battery_status.h
 uORB/topics/actuator_armed.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/commander/factory_calibration_storage.cpp
-errno.h
--
-fcntl.h
--
-string.h
--
-lib/parameters/param.h
--
-px4_platform_common/log.h
--
-factory_calibration_storage.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/commander/factory_calibration_storage.h
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/commander/factory_calibration_storage.h
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/commander/failure_detector/FailureDetector.hpp
@@ -1793,10 +1779,6 @@ stdint.h
 -
 uORB/uORB.h
 -
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/commander/lm_fit.cpp
-lm_fit.hpp
-/home/mrl/catkin_ws/src/Firmware/src/modules/commander/lm_fit.hpp
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/commander/lm_fit.hpp
 matrix/matrix/math.hpp

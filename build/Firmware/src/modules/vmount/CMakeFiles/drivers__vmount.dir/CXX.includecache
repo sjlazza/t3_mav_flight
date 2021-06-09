@@ -526,10 +526,6 @@ assert.h
 stdint.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input.cpp
-input.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input.h
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input.h
 common.h
 /home/mrl/catkin_ws/src/Firmware/src/modules/vmount/common.h
@@ -610,18 +606,6 @@ px4_platform_common/defines.h
 input.h
 /home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input.h
 uORB/topics/manual_control_setpoint.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input_test.cpp
-input_test.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input_test.h
-math.h
--
-px4_platform_common/posix.h
--
-lib/matrix/matrix/math.hpp
--
-lib/mathlib/mathlib.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/vmount/input_test.h

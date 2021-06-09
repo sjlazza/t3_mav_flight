@@ -350,14 +350,6 @@ set
 uORBCommunicator.hpp
 /home/mrl/catkin_ws/src/Firmware/platforms/common/uORB/uORBCommunicator.hpp
 
-/home/mrl/catkin_ws/src/Firmware/platforms/common/uORB/uORBUtils.cpp
-uORBUtils.hpp
-/home/mrl/catkin_ws/src/Firmware/platforms/common/uORB/uORBUtils.hpp
-stdio.h
--
-errno.h
--
-
 /home/mrl/catkin_ws/src/Firmware/platforms/common/uORB/uORBUtils.hpp
 uORBCommon.hpp
 /home/mrl/catkin_ws/src/Firmware/platforms/common/uORB/uORBCommon.hpp

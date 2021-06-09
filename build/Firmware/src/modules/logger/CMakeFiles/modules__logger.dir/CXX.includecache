@@ -578,12 +578,6 @@ errno.h
 stdlib.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/lib/systemlib/hardfault_log.h
-px4_platform_common/px4_config.h
--
-systemlib/px4_macros.h
--
-
 /home/mrl/catkin_ws/src/Firmware/src/lib/systemlib/mavlink_log.h
 px4_log.h
 -
@@ -611,24 +605,6 @@ log_writer_file.h
 /home/mrl/catkin_ws/src/Firmware/src/modules/logger/log_writer_file.h
 log_writer_mavlink.h
 /home/mrl/catkin_ws/src/Firmware/src/modules/logger/log_writer_mavlink.h
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/logger/log_writer_file.cpp
-log_writer_file.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/logger/log_writer_file.h
-messages.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/logger/messages.h
-fcntl.h
--
-string.h
--
-errno.h
--
-mathlib/mathlib.h
--
-px4_platform_common/posix.h
--
-systemlib/hardfault_log.h
--
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/logger/log_writer_file.h
 px4_platform_common/defines.h
@@ -838,12 +814,6 @@ stdint.h
 time.h
 -
 uORB/uORB.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/logger/watchdog.cpp
-watchdog.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/logger/watchdog.h
-px4_platform_common/log.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/logger/watchdog.h

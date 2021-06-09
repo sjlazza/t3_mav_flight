@@ -342,24 +342,10 @@ interfaces/src/pwm.h
 interfaces/src/seagull_map2.h
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/seagull_map2.h
 
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/camera_interface.cpp
-camera_interface.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/camera_interface.h
-px4_platform_common/log.h
--
-
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/camera_interface.h
 parameters/param.h
 -
 px4_platform_common/log.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/gpio.cpp
-gpio.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/gpio.h
-cstring
--
-px4_arch/io_timer.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/gpio.h
@@ -367,18 +353,6 @@ board_config.h
 -
 camera_interface.h
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/camera_interface.h
-
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/pwm.cpp
-sys/ioctl.h
--
-lib/mathlib/mathlib.h
--
-parameters/param.h
--
-drivers/drv_pwm_trigger.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/drivers/drv_pwm_trigger.h
-pwm.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/pwm.h
 
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/pwm.h
 drivers/drv_hrt.h
@@ -389,16 +363,6 @@ px4_platform_common/log.h
 -
 camera_interface.h
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/camera_interface.h
-
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/seagull_map2.cpp
-sys/ioctl.h
--
-lib/mathlib/mathlib.h
--
-drivers/drv_pwm_trigger.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/drivers/drv_pwm_trigger.h
-seagull_map2.h
-/home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/seagull_map2.h
 
 /home/mrl/catkin_ws/src/Firmware/src/drivers/camera_trigger/interfaces/src/seagull_map2.h
 drivers/drv_hrt.h
@@ -426,12 +390,6 @@ px4_platform_common/defines.h
 sys/types.h
 -
 sys/ioctl.h
--
-stdint.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/drivers/drv_pwm_trigger.h
-px4_platform_common/defines.h
 -
 stdint.h
 -

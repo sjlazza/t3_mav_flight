@@ -2126,10 +2126,6 @@ uORB/topics/parameter_update.h
 drivers/drv_hrt.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_rate_limiter.cpp
-mavlink_rate_limiter.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_rate_limiter.h
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_rate_limiter.h
 drivers/drv_hrt.h
 -
@@ -2298,38 +2294,12 @@ uORB/topics/debug_value.h
 uORB/topics/debug_vect.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_shell.cpp
-mavlink_shell.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_shell.h
-px4_platform_common/defines.h
--
-unistd.h
--
-errno.h
--
-sys/ioctl.h
--
-nshlib/nshlib.h
--
-asm/socket.h
--
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_shell.h
 stddef.h
 -
 stdint.h
 -
 px4_platform_common/tasks.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_simple_analyzer.cpp
-mavlink_simple_analyzer.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_simple_analyzer.h
-float.h
--
-px4_platform_common/log.h
--
-px4_platform_common/defines.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_simple_analyzer.h

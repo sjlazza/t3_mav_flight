@@ -1984,20 +1984,6 @@ px4_platform_common/module_params.h
 containers/List.hpp
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_tests/mavlink_ftp_test.cpp
-sys/stat.h
--
-crc32.h
--
-stdio.h
--
-fcntl.h
--
-mavlink_ftp_test.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_tests/mavlink_ftp_test.h
-../mavlink_ftp.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_ftp.h
-
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_tests/mavlink_ftp_test.h
 unit_test.h
 -
@@ -2007,12 +1993,6 @@ v2.0/standard/mavlink.h
 -
 ../mavlink_ftp.h
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_ftp.h
-
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_tests/mavlink_tests.cpp
-systemlib/err.h
--
-mavlink_ftp_test.h
-/home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_tests/mavlink_ftp_test.h
 
 /home/mrl/catkin_ws/src/Firmware/src/modules/mavlink/mavlink_timesync.h
 mavlink_bridge_header.h

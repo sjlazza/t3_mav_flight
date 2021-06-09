@@ -294,14 +294,6 @@ sys/ioctl.h
 stdint.h
 -
 
-/home/mrl/catkin_ws/src/Firmware/src/drivers/drv_sensor.h
-px4_platform_common/defines.h
--
-stdint.h
--
-sys/ioctl.h
--
-
 /home/mrl/catkin_ws/src/Firmware/src/include/containers/Bitset.hpp
 stdint.h
 -
@@ -336,14 +328,6 @@ px4_platform_common/micro_hal.h
 inttypes.h
 -
 string.h
--
-
-/home/mrl/catkin_ws/src/Firmware/src/lib/drivers/device/Device.hpp
-px4_platform_common/px4_config.h
--
-px4_platform_common/posix.h
--
-drivers/drv_sensor.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/lib/mathlib/math/Functions.hpp
@@ -514,18 +498,6 @@ stdbool.h
 sys/types.h
 -
 cstdio
--
-
-/home/mrl/catkin_ws/src/Firmware/src/lib/parameters/param_translation.cpp
-param_translation.h
-/home/mrl/catkin_ws/src/Firmware/src/lib/parameters/param_translation.h
-px4_platform_common/log.h
--
-lib/drivers/device/Device.hpp
--
-drivers/drv_sensor.h
--
-lib/parameters/param.h
 -
 
 /home/mrl/catkin_ws/src/Firmware/src/lib/parameters/param_translation.h

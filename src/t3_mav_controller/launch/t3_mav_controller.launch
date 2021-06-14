@@ -1,0 +1,24 @@
+<launch>
+    <!-- Dynamixel Workbench Controller -->
+    <include file="$(find dynamixel_workbench_controllers)/launch/position_control.launch">
+        <arg name="device_name"        		default="/dev/ttyU2D2"/>
+        <arg name="baud_rate"   		default="4500000"/>
+	<arg name="profile_velocity"		default="0"/>
+	<arg name="profile_acceleration"	default="0"/>
+    </include>
+
+    <!-- Mavros -->
+    <include file="$(find mavros)/launch/px4.launch">
+        <arg name="fcu_url"         default="/dev/ttyS4:3000000"/>
+    </include>
+    <!-- To change /mavros/imu/data publication frequency, "rosrun mavros mavcmd long 511 31 10000 0 0 0 0 0"  -->
+    <!-- source: programmersought.com/article/62848162206 -->
+    <!-- 65->rc in-->
+
+    <!-- T3_MAV_Controller -->
+    <node name="t3_mav_controller_node"  pkg="t3_mav_controller" type="t3_mav_controller_node"  output="screen"/>
+
+    <!-- Rosbag -->
+    <node pkg="rosbag" type="record" name="record" output="screen" args="-o /home/mrl/catkin_ws/src/t3_mav_controller/bag/ -a"/>
+</launch>
+
